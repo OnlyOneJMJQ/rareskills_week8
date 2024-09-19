@@ -1,0 +1,21 @@
+# Rust
+# ----
+# Compiler files
+sol/cache/
+sol/out/
+
+# Ignores development broadcast logs
+sol/!/broadcast
+sol/broadcast/*/31337/
+sol/broadcast/**/dry-run/
+
+# Docs
+sol/docs/
+
+# Dotenv file
+*/.env
+
+# Python
+# ------
+py/__pycache__
+py/.venv/lib
